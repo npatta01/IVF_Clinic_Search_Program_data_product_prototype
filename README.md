@@ -1,7 +1,8 @@
-## IVF - Clinic Search Program V. 1.0.0
+## IVF Clinic Search Program V. 1.0.0
 =======================================
+Watch video of the Program: https://youtu.be/OtdEfOga5xQ
 
-The IVF - Clinic Search Program was developed as a deliverable for the “DS-GA-1007 Programming for Data Science” course, NYU’s Masters in Data Science (Fall 2016). 
+The IVF Clinic Search Program was developed as a deliverable for the “DS-GA-1007 Programming for Data Science” course, NYU’s Masters in Data Science (Fall 2016). 
 
 IVF stands for “In Vitro Fertilization,” and is one of several infertility treatments offered to want-to-be-mothers and fathers. For more information, please see https://www.cdc.gov/art/artdata/index.html.
 
