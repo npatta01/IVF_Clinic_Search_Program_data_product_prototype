@@ -1,5 +1,6 @@
 ## IVF Clinic Search Program V. 1.0.0
 =======================================
+
 Watch video of the Program: https://youtu.be/OtdEfOga5xQ
 
 The IVF Clinic Search Program was developed as a deliverable for the “DS-GA-1007 Programming for Data Science” course, NYU’s Masters in Data Science (Fall 2016). 
