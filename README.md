@@ -42,7 +42,10 @@ The user is able to explore these official IVF data depending on her age, locati
 
 #### Collaborators / Team members
 ---------------------------------
+Eduardo Fierro
+
 Zahra Kadkhodaie
+
 Zhanna Zhanabekova
 
 #### Data
