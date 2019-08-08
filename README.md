@@ -1,6 +1,28 @@
 ## IVF Clinic Search Program V. 1.0.0
 =======================================
 
+**Build**
+```
+docker build -t app .
+docker run -p 5000:5000 -it app 
+```
+
+**Deploy**
+```
+heroku login
+heroku container:login
+
+APP_NAME="np-ivf"
+heroku create $APP_NAME
+
+heroku container:push web --app ${APP_NAME}
+
+heroku container:release web --app ${APP_NAME}
+heroku open --app $APP_NAME
+heroku logs --tail --app ${APP_NAME}
+```
+
+
 **WATCH THE VIDEO OF THE PROGRAM: https://youtu.be/OtdEfOga5xQ**
 
 The IVF Clinic Search Program was developed as a deliverable for the “DS-GA-1007 Programming for Data Science” course, NYU’s Masters in Data Science (Fall 2016). 

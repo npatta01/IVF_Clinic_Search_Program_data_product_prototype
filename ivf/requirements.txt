@@ -1,0 +1,5 @@
+dash==1.1.1  # The core dash backend
+dash-daq==0.1.0  # DAQ components (newly open-sourced!)
+pandas==0.24.2
+dash-bootstrap-components==0.7.0
+gunicorn
