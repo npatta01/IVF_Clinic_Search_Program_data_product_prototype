@@ -7,6 +7,7 @@ RUN pip install -r requirements.txt
 
 COPY ivf/* ./
 
+
 ENV DEBUG False
 #CMD ["python", "app.py"]
-CMD ["gunicorn","-w 2", "app:app.server","--preload"]
+CMD ["gunicorn","-w 2", "--bind=0.0.0.0", "app:app.server","--preload"]

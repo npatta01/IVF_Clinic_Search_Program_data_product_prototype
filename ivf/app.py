@@ -107,6 +107,6 @@ def update_table(selected_state):
 
 
 if __name__ == '__main__':
-    port = os.environ.get("PORT",5000)
+    port = os.environ.get("PORT",8000)
     debug = os.environ.get("DEBUG",True)
-    app.run_server(debug=debug, port=port)
+    app.run_server(debug=debug, port=port, host="0.0.0.0")
